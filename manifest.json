@@ -161,6 +161,128 @@
       ],
       "ast": [
         "aggregate/ast/7f536de04fc0993ee01af8145e64915ffec5f019/chunk-001.nq.gz"
+      ],
+      "lsp": "aggregate/lsp/7f536de04fc0993ee01af8145e64915ffec5f019.nq.gz",
+      "dependencies": [
+        {
+          "packageName": "@eslint/js",
+          "ecosystem": "NPM",
+          "version": "9.9.1",
+          "githubOrg": "eslint",
+          "githubRepo": "eslint",
+          "githubCommit": "8781e6f063e56438dc22346504ff637df3f84daf",
+          "githubTag": "v9.9.1",
+          "githubUrl": "git+https://github.com/eslint/eslint.git",
+          "source": "build_file:package.json"
+        },
+        {
+          "packageName": "@types/node",
+          "ecosystem": "NPM",
+          "version": "20.11.20",
+          "githubOrg": "DefinitelyTyped",
+          "githubRepo": "DefinitelyTyped",
+          "githubUrl": "https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+          "source": "build_file:package.json"
+        },
+        {
+          "packageName": "eslint",
+          "ecosystem": "NPM",
+          "version": "9.9.1",
+          "githubOrg": "eslint",
+          "githubRepo": "eslint",
+          "githubCommit": "8781e6f063e56438dc22346504ff637df3f84daf",
+          "githubTag": "v9.9.1",
+          "githubUrl": "git+https://github.com/eslint/eslint.git",
+          "source": "build_file:package.json"
+        },
+        {
+          "packageName": "eslint-config-prettier",
+          "ecosystem": "NPM",
+          "version": "10.1.8",
+          "githubOrg": "prettier",
+          "githubRepo": "eslint-config-prettier",
+          "githubCommit": "9b0b0a47ec28a7a83cf65e8436a8776910379385",
+          "githubTag": "v10.1.8",
+          "githubUrl": "git+https://github.com/prettier/eslint-config-prettier.git",
+          "source": "build_file:package.json"
+        },
+        {
+          "packageName": "fast-check",
+          "ecosystem": "NPM",
+          "version": "2.12.0",
+          "githubOrg": "dubzzz",
+          "githubRepo": "fast-check",
+          "githubCommit": "7e245e1a350e20bd8d7dfbb8610ba5af68d1888c",
+          "githubTag": "v2.12.0",
+          "githubUrl": "git+https://github.com/dubzzz/fast-check.git",
+          "source": "build_file:package.json"
+        },
+        {
+          "packageName": "prettier",
+          "ecosystem": "NPM",
+          "version": "3.0.2",
+          "githubOrg": "prettier",
+          "githubRepo": "prettier",
+          "githubCommit": "157e42accdcff98a6a4e92a0de2fbd3eee9fcd4f",
+          "githubTag": "3.0.2",
+          "githubUrl": "git+https://github.com/prettier/prettier.git",
+          "source": "build_file:package.json"
+        },
+        {
+          "packageName": "rolldown",
+          "ecosystem": "NPM",
+          "version": "1.0.0-beta.54",
+          "githubOrg": "rolldown",
+          "githubRepo": "rolldown",
+          "githubCommit": "5ab457aba0cb544571978415aa4e439f09fa3a1f",
+          "githubTag": "v1.0.0-beta.54",
+          "githubUrl": "git+https://github.com/rolldown/rolldown.git",
+          "source": "build_file:package.json"
+        },
+        {
+          "packageName": "rolldown-plugin-dts",
+          "ecosystem": "NPM",
+          "version": "0.22.1",
+          "githubOrg": "sxzz",
+          "githubRepo": "rolldown-plugin-dts",
+          "githubCommit": "62aeaeac6af7169c5a69bdfeaa6c1d6ee3a587bc",
+          "githubTag": "v0.22.1",
+          "githubUrl": "git+https://github.com/sxzz/rolldown-plugin-dts.git",
+          "source": "build_file:package.json"
+        },
+        {
+          "packageName": "typescript",
+          "ecosystem": "NPM",
+          "version": "5.9.3",
+          "githubOrg": "microsoft",
+          "githubRepo": "TypeScript",
+          "githubCommit": "c63de15a992d37f0d6cec03ac7631872838602cb",
+          "githubTag": "v5.9.3",
+          "githubUrl": "git+https://github.com/microsoft/TypeScript.git",
+          "source": "build_file:package.json"
+        },
+        {
+          "packageName": "typescript-eslint",
+          "ecosystem": "NPM",
+          "version": "8.4.0",
+          "githubOrg": "typescript-eslint",
+          "githubRepo": "typescript-eslint",
+          "githubCommit": "3920c937e8a7b56e6134a073f03e89faeed4dd9a",
+          "githubTag": "v8.4.0",
+          "githubUrl": "https://github.com/typescript-eslint/typescript-eslint.git",
+          "source": "build_file:package.json"
+        },
+        {
+          "packageName": "vitest",
+          "ecosystem": "NPM",
+          "version": "4.0.15",
+          "githubOrg": "vitest-dev",
+          "githubRepo": "vitest",
+          "githubCommit": "eb1abf08573032a532015b999ad3501c5e89e3bb",
+          "githubTag": "v4.0.15",
+          "githubUrl": "git+https://github.com/vitest-dev/vitest.git",
+          "source": "build_file:package.json"
+        }
       ]
     }
   ],

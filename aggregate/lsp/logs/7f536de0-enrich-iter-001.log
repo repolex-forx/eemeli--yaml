@@ -1,0 +1,30 @@
+[2026-09-28T19:28:06Z] === ENRICH ITERATION 1 START | repo=eemeli/yaml sha=7f536de0 ===
+[2026-09-28T19:28:06Z] [iter=1] PHASE START: enrich repo=eemeli/yaml sha=7f536de0 runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/7f536de0-enrich-iter-001.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/7f536de04fc0993ee01af8145e64915ffec5f019.nq.gz
+[2026-09-28T19:28:17Z] [iter=1] Step 1: Loading AST into disk-backed store mem_mb=83 MB
+[2026-09-28T19:28:30Z] [iter=1] AST store loaded triples=772692 load_secs=13 mem_mb=783 MB
+[2026-09-28T19:28:30Z] [iter=1] Step 2: Finding LSP targets mem_mb=783 MB
+[2026-09-28T19:28:31Z] [iter=1] LSP targets found call_sites=7316 imports=511 extends=17 implements=0 secs=1
+[2026-09-28T19:28:31Z] [iter=1] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=783 MB
+[2026-09-28T19:28:33Z] [iter=1] Position index built positions=50515 nodes_with_types=60384 secs=2 mem_mb=783 MB
+[2026-09-28T19:28:33Z] [iter=1] Step 3: Starting LSP resolution mem_mb=783 MB already_completed_types=[] already_completed_files=0
+[2026-09-28T19:28:33Z] [iter=1] Resolving target type target_type=call_site count=7316
+[2026-09-28T19:28:47Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=0.7 files_done=0 resolved=0 errors=0 current=tests/yaml-test-suite.ts
+[2026-09-28T19:29:21Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=1.2 files_done=3 resolved=70 errors=178 current=tests/doc/createNode.ts
+[2026-09-28T19:29:56Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=1.8 files_done=5 resolved=148 errors=373 current=tests/doc/stringify.ts
+[2026-09-28T19:30:41Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=2.6 files_done=6 resolved=203 errors=625 current=tests/doc/errors.ts
+[2026-09-28T19:31:34Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=3.5 files_done=8 resolved=210 errors=917 current=src/visit.ts
+[2026-09-28T19:32:11Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=4.1 files_done=10 resolved=288 errors=1122 current=src/parse/parser.ts
+[2026-09-28T19:32:46Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=4.7 files_done=14 resolved=439 errors=1314 current=src/schema/yaml-1.1/set.ts
+[2026-09-28T19:33:22Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=5.3 files_done=21 resolved=511 errors=1509 current=src/public-api.ts
+[2026-09-28T19:33:55Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=5.8 files_done=33 resolved=668 errors=1692 current=src/parse/lexer.ts
+[2026-09-28T19:34:26Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=6.3 files_done=43 resolved=795 errors=1859 current=tests/clone.ts
+[2026-09-28T19:34:57Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=6.9 files_done=60 resolved=927 errors=2020 current=src/compose/resolve-block-scalar.ts
+[2026-09-28T19:35:27Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=7.4 files_done=78 resolved=1087 errors=2183 current=src/stringify/stringifyComment.ts
+[2026-09-28T19:35:37Z] [iter=1] Target type resolved target_type=call_site resolved=1125 errors=2228 secs=424 mem_mb=783 MB
+[2026-09-28T19:35:37Z] [iter=1] Resolving target type target_type=import_statement count=511
+[2026-09-28T19:35:45Z] [iter=1] Target type resolved target_type=import_statement resolved=487 errors=0 secs=8 mem_mb=783 MB
+[2026-09-28T19:35:45Z] [iter=1] Resolving target type target_type=extends_clause count=17
+[2026-09-28T19:35:47Z] [iter=1] Target type resolved target_type=extends_clause resolved=17 errors=0 secs=2 mem_mb=783 MB
+[2026-09-28T19:35:59Z] [iter=1] Step 5: Writing final enrichment file triples=67897
+[2026-09-28T19:36:00Z] [iter=1] Enrichment file written path=/home/runner/work/forx/forx/storage/aggregate/lsp/7f536de04fc0993ee01af8145e64915ffec5f019.nq.gz size_kb=1207
+[2026-09-28T19:36:00Z] [iter=1] PHASE END: enrich elapsed_s=474 elapsed_min=7.9 total_triples=67897
