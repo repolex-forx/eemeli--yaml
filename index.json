@@ -1,0 +1,11 @@
+{
+  "org": "eemeli",
+  "repo": "yaml",
+  "versions": [
+    {
+      "commit": "7f536de04fc0993ee01af8145e64915ffec5f019",
+      "tag": "v3.0.0-0",
+      "parsed_at": "2026-09-28T22:55:57.948421+00:00"
+    }
+  ]
+}
